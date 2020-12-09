@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race register form</title>
+</head>
+
+<body>
+    <h1>Race registration!</h1>
+
+    <form action="/kaas">
+        <label for="first">First Name</label>
+        <input type="text" name="first" id="first" required>
+        <label for="last">Last Name</label>
+        <input type="text" name="last" id="last" required>
+
+        <p>Select a Race:</p>
+        <input type="radio" name="race" id="funRun">
+        <label for="funRun">Fun Run 5K</label>
+        <p>
+            <input type="radio" name="race" id="half">
+            <label for="half">Half Marathon</label>
+        </p>
+        <p>
+            <input type="radio" name="race" id="full">
+            <label for="full">Full Marathon</label>
+        </p>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <p></p>
+
+        <label for="age">Select age group:</label>
+        <select name="age" id="age">
+            <option value="under18">under 18</option>
+            <option value="above18">above 18</option>
+        </select>
+        <p></p>
+        <button>Register!</button>
+    </form>
+
+</body>
+
+</html>
