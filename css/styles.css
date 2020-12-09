@@ -1,0 +1,28 @@
+h1 {
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
+    text-align: center;
+    width: 50%;
+    font-weight: 400;
+    text-decoration: underline blue wavy;
+    font-size: 60px;
+    font-family: Impact, Futura, Arial, sans-serif;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    font-weight: bold;
+    line-height: 2;
+}
+
+body {
+    background-color: #f04;
+}
+
+a {
+    text-decoration: none;
+}
